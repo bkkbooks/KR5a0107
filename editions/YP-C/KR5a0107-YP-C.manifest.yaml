@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5a0107/YP-C/v1
+canonical_location: https://kanripo.org/bkk/KR5a0107/YP-C/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上赤文洞古經註
+  date: '2015-08-28 23:37:40.915804'
+  source:
+    repository: kanripo
+    path: KR5a0107
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: YP-C
+    label: 【原版道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0107_000-YP-C.yaml, hash: 'sha256:48e13f9efe11f66ce7c328618c5b3267c8d42b3f7449e970d015f91b614448e3'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0107_000-YP-C.markers.yaml, hash: 'sha256:b576f1e5b05d871274fb1aca0712271bf2a1deea712016154cefe94c197b87a4'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0107_YP-C_06weiji-01-0038a
+    span:
+    - body
+    - 0
+    - 1401
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:6a1ab2c8a7e828152269d68881e7851af17b1b7b25975ef06611bc8f39f2ccc1

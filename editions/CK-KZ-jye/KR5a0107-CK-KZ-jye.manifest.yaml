@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR5a0107/CK-KZ-jye/v1
+canonical_location: https://kanripo.org/bkk/KR5a0107/CK-KZ-jye/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上赤文洞古經註
+  date: '2015-08-28 23:37:40.915804'
+  source:
+    repository: kanripo
+    path: KR5a0107
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: CK-KZ-jye
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0107_000-CK-KZ-jye.yaml, hash: 'sha256:bbd4c60bbb2fda117284d438c6b9a1760c7bf0a0da27f2369bd5e6c2839c6d87'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0107_000-CK-KZ-jye.markers.yaml, hash: 'sha256:5ef161014993b06195cc35c090f0a96b5319bad06cefba4c12c6489df6016a0b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0107_CK-KZ-jye_000-h2
+    span:
+    - body
+    - 0
+    - 440
+  label: 操眞章上
+  type: section
+  level: 2
+- ref:
+    seq: 0
+    marker_id: KR5a0107_CK-KZ-jye_000-h3
+    span:
+    - body
+    - 440
+    - 889
+  label: 入聖章中¶<md:KR5a0107_HFL_000-004a>
+  type: section
+  level: 2
+- ref:
+    seq: 0
+    marker_id: KR5a0107_CK-KZ-jye_000-h4
+    span:
+    - body
+    - 889
+    - 1383
+  label: 住世章下
+  type: section
+  level: 2
+hash: sha256:f2591d070d254879b2acb09cab2a3b23dc31bf14ed78a7d30b7af174f2805846

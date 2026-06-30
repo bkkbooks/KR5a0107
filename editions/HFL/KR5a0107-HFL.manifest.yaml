@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5a0107/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0107/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上赤文洞古經註
+  date: '2015-08-28 23:37:40.915804'
+  source:
+    repository: kanripo
+    path: KR5a0107
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0107_000-HFL.yaml, hash: 'sha256:1b44f26226f4b8bef883c0885e117f51093b878de03de72da66ac5d90a0da730'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0107_000-HFL.markers.yaml, hash: 'sha256:b2ea97db354d4e43116e777d450eb892afb545e2a2e077eb41516fb9b9107021'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0107_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1411
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:c70fe0835143eab98e703024e7ce8e102c267fb5af594d2dd70ecc270d75c7ea
